@@ -5,17 +5,43 @@ body{
 p{
     font-style: normal;
 }
-.container{
-    padding-left: 2em;
-    padding-right:2rem;
 
+.root{
+    --primary-color:#7C3AED;
+}
+.container{
+    padding: 0rem 2em;
+   
 }
 .container-fluid{
     max-width:600px;
     margin: auto;
 }
+/** container **/
 .container-center
 {
     max-width:600px;
 margin=auto;
+}
+
+/** links **/
+.link-primary{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color:#7C3AED;
+    color:white;
+    border-radius: 0.5rem;
+
+}
+
+.link-secondary
+{
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid #7C3AED;
+    border-radius: 0.5rem;
+    
+    
+    
+    
 }
