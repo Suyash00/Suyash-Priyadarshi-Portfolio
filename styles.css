@@ -11,9 +11,9 @@ hr {
 }
 
 :root {
-    --purple:#7C3AED;
+    --purple: #7C3AED;
     --dark-gray: #9CA3AF;
-    
+    --of-white:#F1F5F9;
 }
 
 .container {
@@ -29,7 +29,7 @@ hr {
 /** container **/
 .container-center {
     max-width: 600px;
-    margin=auto;
+    margin:auto;
 }
 
 /** links **/
@@ -66,45 +66,64 @@ hr {
     color: white;
     text-decoration: none;
     width: 50%;
-    margin:auto; 
+    margin: auto;
     height: 100px;
     border-bottom-left-radius: 1rem;
 
 }
-.list{
+
+.list {
     display: block;
-    float:right;
+    float: right;
 }
+
 .links {
-    color:white;
+    color: white;
 }
-.nav-pills a{
+
+.nav-pills a {
     text-decoration: none;
 }
 
-.navigation .nav-brand
-{
-    font-weight:bolder;
+.navigation .nav-brand {
+    font-weight: bolder;
     font-size: 1.1;
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bold;
 }
 
-/** header *//
-.hero{
-    padding:2rem;
+/** header */
+ .hero {
+    padding: 2rem;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     color: var(--dark-gray);
     padding-top: 1rem;
-    max-width: 400px;
-    margin: auto;
+    text-align: center;
+    }
+
+    /** Sections **/
+.section{
+    padding: 2rem;
+    
 }
+
+    .section h3,p{
+        text-align: center;
+        
+
+    }
+
+    .section-ow{
+        background-color: var(--of-white);
+        
+    }
