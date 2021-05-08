@@ -1,5 +1,6 @@
 body {
     font-family: 'Quintessential', "cursive";
+    margin:0px;
 }
 
 p {
@@ -65,8 +66,8 @@ hr {
     background-color: #7C3AED;
     color: white;
     text-decoration: none;
-    width: 50%;
-    margin: auto;
+    
+    
     height: 100px;
     border-bottom-left-radius: 1rem;
 
@@ -117,7 +118,7 @@ hr {
     
 }
 
-    .section h3,p{
+    .section .container .container-center h3{
         text-align: center;
         
 
@@ -126,4 +127,21 @@ hr {
     .section-ow{
         background-color: var(--of-white);
         
+    }
+
+    /**Footer**/
+    .footer {
+        background-color: var(--purple);
+        text-align: center;
+        padding:2rem 0rem;
+        color: white;
+        border-top-right-radius: 1rem;
+    }
+    .footer .link{
+      color: white;
+      text-decoration: none;
+    }
+
+    .footer ul{
+        padding-inline-start: 0px;
     }
