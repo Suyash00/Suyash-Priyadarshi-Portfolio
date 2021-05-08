@@ -5,6 +5,7 @@ body {
 
 p {
     font-style: normal;
+    font-size: large;
 }
 
 hr {
@@ -42,7 +43,8 @@ hr {
     background-color: var(--purple);
     color: white;
     border-radius: 0.5rem;
-
+    margin-left: 22px;
+    
 }
 
 .link-secondary {
@@ -50,6 +52,8 @@ hr {
     padding: 0.5rem;
     border: 1px solid #7C3AED;
     border-radius: 0.5rem;
+    margin-left: 365px;
+    
 
 }
 
@@ -114,19 +118,15 @@ hr {
 
     /** Sections **/
 .section{
-    padding: 2rem;
-    
+    padding: 2rem;   
 }
 
-    .section .container .container-center h3{
+    .section .container-center h3,p{
         text-align: center;
-        
-
     }
 
     .section-ow{
         background-color: var(--of-white);
-        
     }
 
     /**Footer**/

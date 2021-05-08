@@ -1,60 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suyash's component library</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    <title>Home | Suyash Priyadarshi</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
-
 <body>
-    <h1> Suyash's component libary</h1>
-    <p>I am attending neog.camp and I want to make a library which looks good and consistent </p>
-    <hr>
-    <h1> @typography</h1>
-    <h1>Biggest heading</h1>
-    <h2>Second biggest heading</h2>
-    <p>This is a paragraph tag</p>
-    <small>This is small tag <strong>comparatively</strong></small>
-    <hr>
-    <h2>@containers</h2>
-    <ul class="container">
-        <li>Fluid container</li>
-        <div class="container-fluid">This is fluid container</small>
-        </div>
-        <li>Centre container</li>
-        <div class="container-center">This is centre container</small>
-        </div>
-    </ul>
-
-    <hr>
-    <h2>Links</h2>
-
-    <a class="link link-primary" href="/">Primary link</a>
-
-    <a class="link link-secondary" href="/">Secondary link</a>
-
-
-    <hr>
-
-    <h2>Lists</h2>
-    <ol class="list-non-bullet">
-        <li class="list-item-inline">Ordered list</li>
-        <li class="list-item-inline">Unordered list</li>
-        <li class="list-item-inline">Reverse order list</li>
-    </ol>
-
-    <hr>
-
-    <h2>Image</h2>
-    <img src=<"https://pbs.twimg.com/profile_banners/833845628048461828/1606660608/600x200"/> <hr>
-
     <nav class="navigation container">
-        <div class="nav-brand">Iambrand</div>
+        <div class="nav-brand">IamDeveloper</div>
 
         <div>
 
@@ -62,59 +17,53 @@
                 <li class="list-item-inline nav-pills">
                     <a class="links link-active" href=" /">Home</a></li>
                 <li class="list-item-inline nav-pills">
-                    <a class="links" href=" /">Product</a></li>
+                    <a class="links" href=" /">Projects</a></li>
                 <li class="list-item-inline nav-pills">
-                    <a class="links" href=" /">About</a></li>
+                    <a class="links" href=" /">Blogs</a></li>
             </ul>
         </div>
 
     </nav>
-
-    <hr>
 
     <header class="hero">
         <img class="hero-img" src="images/hero.svg">
         <h3 class="hero-heading">Image in hero is <span style="color:var(--purple)"> Software Engineer</span></h3>
     </header>
 
-    <hr>
-    <h2>@Sections</h2>
+    <section class="section section-ow">
+        <div class="container container-center">
+            <h3>Technologies</h3>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
+        </div>
+    </section>
+
     <section class="section">
         <div class="container container-center">
 
-            <h3>White setion</h3>
-            <p> The font-family property should hold several font names as a "fallback" system, to ensure maximum
-                compatibility between browsers/operating systems. Start with the font you want, and end with a generic
-                family (to let the browser pick a similar font in the generic family, if no other fonts are available).
-                The font names should be separated with comma.</p>
+            <h3>Projects</h3>
+            <p> I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link-primary" href="projects.html">See Project</a>
         </div>
     </section>
-
+    
     <section class="section section-ow">
         <div class="container container-center">
-            <h3>Off white section</h3>
-            <p>The font-family property should hold several font names as a "fallback" system, to ensure maximum
-                compatibility between browsers/operating systems. Start with the font you want, and end with a generic
-                family (to let the browser pick a similar font in the generic family, if no other fonts are available).
-                The font names should be separated with comma.</p>
+            <h3>Blogs</h3>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+            
         </div>
+        <a class="link-secondary" href="blogs.html">Read Blogs</a>
     </section>
 
-    <hr>
-
-    <h2>@Footer</h2>
     <div class="footer">
-        <h3 class=" footer header">Some small heading inside footer</h3>
+        <h3 class=" footer header">Social media presence</h3>
         <ul class="list-non-bullet">
-            <li class="list-item-inline"><a class="link" href='/'>social media one</a></li>
-            <li class="list-item-inline"><a class="link" href='/'>social media two</a></li>
-            <li class="list-item-inline"><a class="link" href='/'>social media three</a></li>
+            <li class="list-item-inline"><a class="link" href='https://github.com/Suyash00'>Github</a></li>
+            <li class="list-item-inline"><a class="link" href='https://www.linkedin.com/in/suyashpriyadarshi/'>LinkedIn</a></li>
+            <li class="list-item-inline"><a class="link" href='https://www.instagram.com/flying_trident/'>Instagram</a></li>
 
         </ul>
     </div>
-
-
-
+    
 </body>
-
 </html>
